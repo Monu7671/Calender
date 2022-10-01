@@ -1,0 +1,5 @@
+.time__row {
+    max-height: 600px;
+    overflow-y: scroll;
+    top: -60px;
+}

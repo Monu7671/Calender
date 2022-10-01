@@ -1,0 +1,60 @@
+.event__form {
+    min-width: 185px;
+
+    padding-left: 20px;
+
+    height: 140px;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.black {
+    background-color: black;
+    color: #fff;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+
+.event__details {
+    height: 100%;
+    max-height: 111px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    max-width: 185px;
+}
+
+.event__title {
+    line-height: 28px;
+    margin-bottom: 5px;
+    font-size: 18px;
+
+}
+
+
+
+
+
+.event__time {
+    padding-bottom: 10px ;
+}

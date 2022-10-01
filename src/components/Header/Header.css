@@ -1,0 +1,98 @@
+.header__section {
+    width: 100% !important;
+    height: 70px;
+    display: flex;
+    border: 4px solid rgba(1, 1, 1, 0.1);
+    z-index: 100;
+  }
+  
+  .header__title {
+    padding-left: 20px;
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .header__days__section {
+    padding-right: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+    font-size: 22px;
+  }
+  
+  .week {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    min-width: 100px;
+    background-color: re#fff;
+    border: 2px solid rgb(1, 1, 1, .1);
+    border-radius: 8px;
+  
+    color: blueviolet;
+  }
+  
+  .week__title {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+    padding-left: 10px;
+    padding-right: 20px;
+  
+    
+  
+    font-size: 18px;
+  }
+  
+  .week__button {
+    padding-right: 10px;
+    padding-left: 5px;
+    
+    display: flex;
+    align-items: center;
+  
+    height: 100%;
+    
+    font-weight: 900;
+  
+  }
+  
+  .current__days__value {
+    flex-grow: 0.4;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .days__value {
+    padding: 0 20px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .month__value {
+    padding-right: 5px;
+  }
+  
+  .year__value {
+    padding-right: 10px;
+  }
+  
+  .days__button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .days__button > button {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    text-align: center;
+    border: 1px solid #111;
+  }
